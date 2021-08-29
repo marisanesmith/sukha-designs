@@ -101,6 +101,16 @@ footer a:hover {
     background-position: 50% 35%;
 }
 
+.bg-moonscape {
+    background-image: url('./images/moonscape-overlook-utah.jpg');
+    background-position: center;
+}
+
+.bg-moon {
+    background-image: url('./images/moonscape-overlook.jpg');
+    background-position: bottom;
+}
+
 /* Utility Classes & Universal Styles */
 
 .padded { padding: 5%; }
