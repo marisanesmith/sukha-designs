@@ -9,10 +9,6 @@ p {
     margin-bottom: 1rem;
 }
 
-header {
-    padding: 1% 5%;
-}
-
 header a {
     text-decoration: none;
     color: inherit;
@@ -63,6 +59,14 @@ footer a:hover {
 .center { text-align: center; }
 .left { text-align: left; }
 
+.header-home {
+    padding: 1% 5%;
+}
+
+.header-content {
+    padding: 1% 2%;
+}
+
 .social-links i {
     font-size: 1.5rem;
 }
@@ -71,6 +75,12 @@ footer a:hover {
     font-family: Didot;
     font-weight: normal;
     font-size: 0.7rem;
+}
+
+.nav-text {
+    font-size: 2rem;
+    line-height: 0.8;
+    padding: 0 2%;
 }
 
 /* Media Queries */
