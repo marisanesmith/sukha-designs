@@ -31,6 +31,14 @@ h4 {
     margin-bottom: 1.1rem;
 }
 
+section a {
+    text-decoration: none;
+}
+
+section a:hover {
+    border-bottom: 2px solid #9eb6a8;
+}
+
 p {
     line-height: 1.4;
     margin-bottom: 1rem;
@@ -112,6 +120,20 @@ footer a:hover {
     background-position: bottom;
 }
 
+.bg-ocean {
+    background-image: url('https://source.unsplash.com/okVXy9tG3KY');
+    background-position: center;
+}
+
+.bg-plant {
+    background-image: url('https://source.unsplash.com/Sg7eWHKrxrA');
+    background-position: center;
+}
+
+.bg-desert {
+    background-image: url('https://source.unsplash.com/3B_NrzTjajc');
+    background-position: center;
+}
 /* Utility Classes & Universal Styles */
 
 .padded { padding: 5%; }
