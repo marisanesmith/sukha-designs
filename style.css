@@ -31,10 +31,18 @@ body, html {
     border: none;
 }
 
+hr {
+    width: 65%;
+    margin: auto;
+    color: #9EB6A8;
+}
+
 /* Typography Styles */
 
 h1, h2, h3 {
     font-family: Didot;
+    line-height: 1;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -220,6 +228,7 @@ footer a:hover {
 
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
+.lg-text { font-size: 2rem; }
 
 .dark-grey-text { color: #3D4341; }
 /* Special Classes */
@@ -268,26 +277,16 @@ footer a:hover {
     background-color: #cad7cf;
 }
 
-.move-left {
-    margin-left: -5rem;
-}
+.move-left { margin-left: -5rem; }
+.move-right { margin-right: -5rem; }
+.move-down { margin-bottom: -7rem; }
+.move-up { margin-top: -4rem; }
 
-.move-right {
-    margin-right: -5rem;
+.number {
+    font-size: 5rem;
+    display: inline-block;
+    line-height: 1;
 }
-
-.move-down {
-    margin-bottom: -7rem;
-}
-
-.move-up {
-    margin-top: -4rem;
-}
-
-.border {
-    border: 1px solid grey;
-}
-
 /* Media Queries */
 
 @media (max-width: 64em) {
