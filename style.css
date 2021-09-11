@@ -1,3 +1,25 @@
+/* 
+Fonts: 
+Crimson Text (400, 600)
+Montserrat (100, 200, 300, 400)
+Nunito Sans (200, 300),
+Roboto (100, 300, 400)
+
+Colors: 
+Yellow-Gold: #958A72
+Light Beige: #F4EEE6
+Eggshell: #FFF9F5
+Dark Seafoam Green: #9EB6A8
+Med Seafoam Green: #BBCCC2
+Lt Seafoam Green: #CAD7CF
+Dark Grey: #3D4341
+Dark Orange: #BA4B2F
+Rust: #9F6C62
+Light Cream: #F1E6E3
+Light Grey: #EEEAE8
+
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,25 +32,36 @@ body, html {
 
 /* Typography Styles */
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: Didot;
 }
 
 h2 {
-    font-size: 6.5rem;
-    color: #958A72;
+    font-size: 6rem;
+    color: #3D4341;
 }
 
 h3 {
-    font-size: 3.4rem;
+    font-size: 3.5rem;
     color: #9F6C62;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: normal;
     /* color: rgb(60,60,65); */
     color: #958A72;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+    font-family: Didot;
+    color: #9F6C62;
+}
+
+h4:hover{
+    color: #9F6C62;
 }
 
 section a {
@@ -39,7 +72,7 @@ p {
     line-height: 1.4;
     margin-bottom: 1rem;
     color: rgb(90,90,95);
-    font-family: Didot;
+    font-family: 'Montserrat';
     font-size: 1.1rem;
 }
 
@@ -55,12 +88,17 @@ header a {
     cursor: pointer;
 }
 
+nav a {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
 nav a:hover {
     border-bottom: 2px solid #9eb6a8;
 }
 
 header h1 {
-    font-family: Didot;
+    font-family: 'Catamaran';
     font-weight: normal;
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -134,6 +172,7 @@ footer a:hover {
 
 .padded { padding: 5%; }
 .padded-sm { padding: 1rem; }
+.padded-md { padding: 3%; }
 .padded-lg { padding: 10%; }
 
 .padding-r { padding-right: 10%; }
@@ -158,11 +197,13 @@ footer a:hover {
 .left { text-align: left; }
 
 .bg-dark-beige { background-color: #f4eee6; }
-.bg-light-beige { background-color: #fff9f5}
+.bg-light-beige { background-color: #fff9f5;}
+.bg-grey { background-color: #EEEAE8;}
 
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
 
+.dark-grey-text { color: #3D4341; }
 /* Special Classes */
 
 .header-home {
@@ -207,6 +248,18 @@ footer a:hover {
 
 .button a:hover {
     background-color: #cad7cf;
+}
+
+.move-left {
+    margin-left: -10rem;
+}
+
+.move-right {
+    margin-right: -10rem;
+}
+
+.border {
+    border: 1px solid grey;
 }
 
 /* Media Queries */
