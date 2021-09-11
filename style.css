@@ -6,6 +6,7 @@ Nunito Sans (200, 300),
 Roboto (100, 300, 400)
 
 Colors: 
+White smoke: #f8f6f4
 Yellow-Gold: #958A72
 Light Beige: #F4EEE6
 Eggshell: #FFF9F5
@@ -168,6 +169,21 @@ footer a:hover {
     background-image: url('https://source.unsplash.com/3B_NrzTjajc');
     background-position: center;
 }
+
+.bg-computer {
+    background-image: url('https://source.unsplash.com/zNRITe8NPqY');
+    background-position: center;
+}
+
+.bg-computer-2 {
+    background-image: url('https://source.unsplash.com/1SAnrIxw5OY');
+    background-position: center;
+}
+
+.bg-tablet {
+    background-image: url('https://source.unsplash.com/pVt9j3iWtPM');
+    background-position: center;
+}
 /* Utility Classes & Universal Styles */
 
 .padded { padding: 5%; }
@@ -196,8 +212,10 @@ footer a:hover {
 .center { text-align: center; }
 .left { text-align: left; }
 
+.bg-light { background-color: #f8f6f4; }
 .bg-dark-beige { background-color: #f4eee6; }
 .bg-light-beige { background-color: #fff9f5;}
+.bg-rose { background-color: #F1E6E3; }
 .bg-grey { background-color: #EEEAE8;}
 
 .sm-text { font-size: 1.3rem; } 
@@ -231,8 +249,8 @@ footer a:hover {
     padding: 0 2%;
 }
 
-.border {
-    border: 1px solid grey;
+.white-border {
+    border: 0.8rem solid #f8f6f4;
 }
 
 .button {
@@ -251,11 +269,19 @@ footer a:hover {
 }
 
 .move-left {
-    margin-left: -10rem;
+    margin-left: -5rem;
 }
 
 .move-right {
-    margin-right: -10rem;
+    margin-right: -5rem;
+}
+
+.move-down {
+    margin-bottom: -7rem;
+}
+
+.move-up {
+    margin-top: -4rem;
 }
 
 .border {
