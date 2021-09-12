@@ -222,9 +222,11 @@ footer a:hover {
 
 .bg-light { background-color: #f8f6f4; }
 .bg-dark-beige { background-color: #f4eee6; }
-.bg-light-beige { background-color: #fff9f5;}
+.bg-light-beige { background-color: #fff9f5; }
 .bg-rose { background-color: #F1E6E3; }
-.bg-grey { background-color: #EEEAE8;}
+.bg-grey { background-color: #EEEAE8; }
+.bg-rust { background-color: #9F6C62 }
+.bg-green { background-color: #BBCCC2; }
 
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
@@ -256,11 +258,11 @@ footer a:hover {
     font-size: 2rem;
     line-height: 0.8;
     padding: 0 2%;
+    font-family: Didot;
 }
 
-.white-border {
-    border: 0.8rem solid #f8f6f4;
-}
+.white-border { border: 0.8rem solid #f8f6f4; }
+.rose-border { border: 1rem solid #F1E6E3; }
 
 .button {
     text-decoration: none;
@@ -279,7 +281,7 @@ footer a:hover {
 
 .move-left { margin-left: -5rem; }
 .move-right { margin-right: -5rem; }
-.move-down { margin-bottom: -7rem; }
+.move-down { margin-bottom: -6rem; }
 .move-up { margin-top: -4rem; }
 
 .number {
