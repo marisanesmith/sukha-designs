@@ -75,6 +75,7 @@ h4:hover{
 
 section a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 p {
@@ -147,6 +148,10 @@ footer a:hover {
     background-size: cover;
     min-height: 10rem;
 }
+
+.landscape { padding-bottom: 65%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
 
 .bg-arch {
     background-image: url('./images/delicate-arch.jpg');
@@ -272,6 +277,7 @@ footer a:hover {
     font-family: Didot;
 }
 
+.border { border: 1rem solid white; }
 .white-border { border: 0.8rem solid #f8f6f4; }
 .rose-border { border: 1rem solid #F1E6E3; }
 .rounded-top {
