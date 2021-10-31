@@ -168,6 +168,16 @@ footer a:hover {
     background-position: bottom;
 }
 
+.bg-uluwatu {
+    background-image: url('./images/uluwatu-surf.jpg');
+    background-position: 20% 70%;
+}
+
+.bg-siargao {
+    background-image: url('./images/siargao-mangroves.jpg');
+    background-position: 20% 70%;
+}
+
 .bg-ocean {
     background-image: url('https://source.unsplash.com/okVXy9tG3KY');
     background-position: center;
@@ -214,8 +224,13 @@ footer a:hover {
 .padding-t { padding-top: 5%; }
 .padding-b { padding-bottom: 5%; }
 
+.margin {
+    margin: 4%;
+}
 .margin-top { margin-top: 3%; }
 .margin-bottom { margin-bottom: 3%; }
+.margin-right { margin-right: 3%; }
+.margin-left { margin-left: 3%; }
 
 .tall-30 { min-height: 30vh; }
 .tall-40 { min-height: 40vh; }
@@ -245,9 +260,11 @@ footer a:hover {
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
 .lg-text { font-size: 2rem; }
+.lx-text { font-size: 5rem; }
 
 .dark-grey-text { color: #3D4341; }
 .gold-text { color: #958A72; }
+.white-text { color: white; }
 
 /* Special Classes */
 
