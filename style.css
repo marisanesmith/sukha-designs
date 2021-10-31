@@ -21,6 +21,8 @@ Light Grey: #EEEAE8
 
  */
 
+ .border { border: 1px solid grey;}
+
 * {
     margin: 0;
     padding: 0;
@@ -228,6 +230,7 @@ footer a:hover {
     margin: 4%;
 }
 .margin-top { margin-top: 3%; }
+.mb-sm { margin-bottom: 1.5%; }
 .margin-bottom { margin-bottom: 3%; }
 .margin-right { margin-right: 3%; }
 .margin-left { margin-left: 3%; }
@@ -265,6 +268,7 @@ footer a:hover {
 .dark-grey-text { color: #3D4341; }
 .gold-text { color: #958A72; }
 .white-text { color: white; }
+.rust-text { color: #9F6C62; }
 
 /* Special Classes */
 
@@ -328,6 +332,7 @@ footer a:hover {
 .move-right { margin-right: -5rem; }
 .move-down { margin-bottom: -6rem; }
 .move-up { margin-top: -4rem; }
+.move-up-high { margin-top: -6rem; }
 
 .number {
     font-size: 5rem;
