@@ -341,6 +341,47 @@ footer a:hover {
     display: inline-block;
     line-height: 1;
 }
+
+/* Image Gallery */
+
+/* Aspect Ratio  */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+
+.gallery [class*="col-"] {
+  padding: 0.5%;
+}
+
+/* Gallery - Background Images  */
+.bg-img-1 {
+  background-image: url('https://source.unsplash.com/U3aF7hgUSrk');
+}
+
+.bg-img-2 {
+  background-image: url('https://source.unsplash.com/TzjMd7i5WQI');
+}
+
+.bg-img-3 {
+  background-image: url('https://source.unsplash.com/2pbnDRhXc6Q');
+}
+
+.bg-img-4 {
+  background-image: url('https://source.unsplash.com/2s6ORaJY6gI');
+}
+
+.bg-img-5 {
+  background-image: url('https://source.unsplash.com/73pyV0JJOmE');
+}
 /* Media Queries */
 
 @media (max-width: 64em) {
