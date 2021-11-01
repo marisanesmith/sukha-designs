@@ -144,76 +144,6 @@ footer a:hover {
     color: #9eb6a8;
 }
 
-/* Image Styles */
-
-.bg-image {
-    background-size: cover;
-    min-height: 10rem;
-}
-
-.landscape { padding-bottom: 65%; }
-.portrait { padding-bottom: 125%; }
-.square { padding-bottom: 100%; }
-
-.bg-arch {
-    background-image: url('./images/delicate-arch.jpg');
-    background-position: 50% 35%;
-}
-
-.bg-moonscape {
-    background-image: url('./images/moonscape-overlook-utah.jpg');
-    background-position: center;
-}
-
-.bg-moon {
-    background-image: url('./images/moonscape-overlook.jpg');
-    background-position: bottom;
-}
-
-.bg-uluwatu {
-    background-image: url('./images/uluwatu-surf.jpg');
-    background-position: 20% 70%;
-}
-
-.bg-siargao {
-    background-image: url('./images/siargao-mangroves.jpg');
-    background-position: 20% 70%;
-}
-
-.bg-ocean {
-    background-image: url('https://source.unsplash.com/okVXy9tG3KY');
-    background-position: center;
-}
-
-.bg-plant {
-    background-image: url('https://source.unsplash.com/Sg7eWHKrxrA');
-    background-position: center;
-}
-
-.bg-desert {
-    background-image: url('https://source.unsplash.com/3B_NrzTjajc');
-    background-position: center;
-}
-
-.bg-computer {
-    background-image: url('https://source.unsplash.com/zNRITe8NPqY');
-    background-position: center;
-}
-
-.bg-computer-2 {
-    background-image: url('https://source.unsplash.com/1SAnrIxw5OY');
-    background-position: center;
-}
-
-.bg-tablet {
-    background-image: url('https://source.unsplash.com/pVt9j3iWtPM');
-    background-position: center;
-}
-
-.bg-photographer {
-    background-image: url('https://source.unsplash.com/zrk7WirlxgM');
-    background-position: center;
-}
 /* Utility Classes & Universal Styles */
 
 .padded { padding: 5%; }
@@ -345,6 +275,147 @@ footer a:hover {
     line-height: 1;
 }
 
+/* Image Styles */
+
+.bg-image {
+    background-size: cover;
+    min-height: 10rem;
+}
+
+.landscape { padding-bottom: 65%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+
+.bg-arch {
+    background-image: url('./images/delicate-arch.jpg');
+    background-position: 50% 35%;
+}
+
+.bg-moonscape {
+    background-image: url('./images/moonscape-overlook-utah.jpg');
+    background-position: center;
+}
+
+.bg-mars {
+    background-image: url('./images/mars.jpg');
+    background-position: center;
+}
+
+.bg-nh {
+    background-image: url('./images/new-hampsire.JPG');
+    background-position: center;
+}
+
+.bg-nh {
+    background-image: url('./images/new-hampsire.JPG');
+    background-position: center;
+}
+
+.bg-acadia {
+    background-image: url('./images/acadia.JPG');
+    background-position: center;
+}
+
+.bg-bagan {
+    background-image: url('./images/bagan.JPG');
+    background-position: center;
+}
+
+.bg-firenze {
+    background-image: url('./images/firenze.jpg');
+    background-position: center;
+}
+
+.bg-nyc {
+    background-image: url('./images/nyc.JPG');
+    background-position: center;
+}
+
+.bg-nusa {
+    background-image: url('./images/nusa-penida.JPG');
+    background-position: center;
+}
+
+.bg-coron {
+    background-image: url('./images/coron.JPG');
+    background-position: bottom;
+}
+
+.bg-portland {
+    background-image: url('./images/portland.JPG');
+    background-position: 50% 35%;
+}
+
+.bg-vang {
+    background-image: url('./images/vang-vieng.JPG');
+    background-position: center;
+}
+
+.bg-waterfall {
+    background-image: url('./images/waterfall.JPG');
+    background-position: center;
+}
+
+.bg-lofoten {
+    background-image: url('./images/lofoten.JPG');
+    background-position: center;
+}
+
+.bg-taj {
+    background-image: url('./images/taj.JPG');
+    background-position: center;
+}
+
+.bg-moon {
+    background-image: url('./images/moonscape-overlook.jpg');
+    background-position: bottom;
+}
+
+.bg-uluwatu {
+    background-image: url('./images/uluwatu-surf.jpg');
+    background-position: 20% 70%;
+}
+
+.bg-siargao {
+    background-image: url('./images/siargao-mangroves.jpg');
+    background-position: 20% 70%;
+}
+
+.bg-ocean {
+    background-image: url('https://source.unsplash.com/okVXy9tG3KY');
+    background-position: center;
+}
+
+.bg-plant {
+    background-image: url('https://source.unsplash.com/Sg7eWHKrxrA');
+    background-position: center;
+}
+
+.bg-desert {
+    background-image: url('https://source.unsplash.com/3B_NrzTjajc');
+    background-position: center;
+}
+
+.bg-computer {
+    background-image: url('https://source.unsplash.com/zNRITe8NPqY');
+    background-position: center;
+}
+
+.bg-computer-2 {
+    background-image: url('https://source.unsplash.com/1SAnrIxw5OY');
+    background-position: center;
+}
+
+.bg-tablet {
+    background-image: url('https://source.unsplash.com/pVt9j3iWtPM');
+    background-position: center;
+}
+
+.bg-photographer {
+    background-image: url('https://source.unsplash.com/zrk7WirlxgM');
+    background-position: center;
+}
+
 /* Image Gallery */
 
 /* Aspect Ratio  */
@@ -365,26 +436,6 @@ footer a:hover {
   padding: 0.5%;
 }
 
-/* Gallery - Background Images  */
-.bg-img-1 {
-  background-image: url('https://source.unsplash.com/U3aF7hgUSrk');
-}
-
-.bg-img-2 {
-  background-image: url('https://source.unsplash.com/TzjMd7i5WQI');
-}
-
-.bg-img-3 {
-  background-image: url('https://source.unsplash.com/2pbnDRhXc6Q');
-}
-
-.bg-img-4 {
-  background-image: url('https://source.unsplash.com/2s6ORaJY6gI');
-}
-
-.bg-img-5 {
-  background-image: url('https://source.unsplash.com/73pyV0JJOmE');
-}
 /* Media Queries */
 
 @media (max-width: 64em) {
