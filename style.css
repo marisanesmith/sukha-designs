@@ -179,6 +179,8 @@ footer a:hover {
 .center { text-align: center; }
 .left { text-align: left; }
 
+.justify { justify-content: center; }
+
 .uppercase { text-transform: uppercase; }
 
 .bg-light { background-color: #f8f6f4; }
@@ -234,7 +236,9 @@ footer a:hover {
 }
 
 .border { border: 1rem solid white; }
+.beige-border { border: 10px solid #F4EEE6; }
 .white-border { border: 0.8rem solid #f8f6f4; }
+.grey-border { border: 2px solid #EEEAE8; }
 .rose-border { border: 1rem solid #F1E6E3; }
 .rounded-top {
     border-top-left-radius: 100%;
@@ -366,6 +370,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-taj-mahal {
+    background-image: url('./images/taj-mahal.JPG');
+    background-position: center;
+}
+
 .bg-moon {
     background-image: url('./images/moonscape-overlook.jpg');
     background-position: bottom;
@@ -420,9 +429,11 @@ footer a:hover {
 
 /* Aspect Ratio  */
 .portrait-tall { padding-bottom: 175%; }
+.tall-portrait { padding-bottom: 151.5%; }
 .portrait { padding-bottom: 125%; }
 .square { padding-bottom: 100%; }
 .landscape { padding-bottom: 66%; }
+.landscape-small { padding-bottom: 75%; }
 .landscape-wide { padding-bottom: 56%; }
 
 /* Background Position */
