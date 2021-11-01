@@ -235,6 +235,7 @@ footer a:hover {
 .margin-right { margin-right: 3%; }
 .margin-left { margin-left: 3%; }
 
+.tall-20 { min-height: 20vh; }
 .tall-30 { min-height: 30vh; }
 .tall-40 { min-height: 40vh; }
 .tall-50 { min-height: 50vh; }
@@ -247,6 +248,8 @@ footer a:hover {
 .right { text-align: right; }
 .center { text-align: center; }
 .left { text-align: left; }
+
+.uppercase { text-transform: uppercase; }
 
 .bg-light { background-color: #f8f6f4; }
 .bg-dark-beige { background-color: #f4eee6; }
