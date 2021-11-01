@@ -262,8 +262,10 @@ footer a:hover {
 
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
+.md-lg-text { font-size: 1.8rem; }
 .lg-text { font-size: 2rem; }
-.lx-text { font-size: 5rem; }
+.lg-xl-text { font-size: 2.5rem; }
+.xl-text { font-size: 5rem; }
 
 .dark-grey-text { color: #3D4341; }
 .gold-text { color: #958A72; }
