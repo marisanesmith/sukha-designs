@@ -165,6 +165,7 @@ footer a:hover {
 .margin-right { margin-right: 3%; }
 .margin-left { margin-left: 3%; }
 
+.tall-10 { min-height: 10vh; }
 .tall-20 { min-height: 20vh; }
 .tall-30 { min-height: 30vh; }
 .tall-40 { min-height: 40vh; }
@@ -215,6 +216,12 @@ footer a:hover {
 
 .header-content {
     padding: 1% 1%;
+}
+
+.fixed-position {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .social-links i {
@@ -271,13 +278,35 @@ footer a:hover {
 .move-right { margin-right: -5rem; }
 .move-down { margin-bottom: -6rem; }
 .move-up { margin-top: -4rem; }
-.move-up-high { margin-top: -6rem; }
+.move-up-high { margin-top: -10rem; }
 
 .number {
     font-size: 5rem;
     display: inline-block;
     line-height: 1;
 }
+
+/*  Special Effects */
+
+.hover-container {
+    background-size: cover;
+    background-position: center;
+}
+
+.hover-overlay {
+    padding-bottom: 100%;
+    color: rgba(225,225,225,0);
+    position: relative;
+    transition: all .3s;
+}
+
+.hover-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 /* Image Styles */
 
@@ -365,6 +394,61 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-portrait {
+    background-image: url('./images/portrait.JPG');
+    background-position: center;
+}
+
+.bg-portrait-kid {
+    background-image: url('./images/portrait-kid.JPG');
+    background-position: center;
+}
+
+.bg-mb {
+    background-image: url('./images/mb.JPG');
+    background-position: center;
+}
+
+.bg-mandrn {
+    background-image: url('./images/mandrn.JPG');
+    background-position: center;
+}
+
+.bg-lifestyle {
+    background-image: url('./images/lifestyle.JPG');
+    background-position: center;
+}
+
+.bg-tiny-home {
+    background-image: url('./images/tiny-home.JPG');
+    background-position: center;
+}
+
+.bg-tiny-house {
+    background-image: url('./images/tiny-house.JPG');
+    background-position: center;
+}
+
+.bg-lighthouse {
+    background-image: url('./images/lighthouse.JPG');
+    background-position: center;
+}
+
+.bg-cinque-terre {
+    background-image: url('./images/cinque-terre.JPG');
+    background-position: center;
+}
+
+.bg-manarola {
+    background-image: url('./images/manarola.JPG');
+    background-position: 10% 50%;
+}
+
+.bg-santorini {
+    background-image: url('./images/santorini.JPG');
+    background-position: bottom;
+}
+
 .bg-taj {
     background-image: url('./images/taj.JPG');
     background-position: center;
@@ -429,7 +513,7 @@ footer a:hover {
 
 /* Aspect Ratio  */
 .portrait-tall { padding-bottom: 175%; }
-.tall-portrait { padding-bottom: 151.5%; }
+.tall-portrait { padding-bottom: 152%; }
 .portrait { padding-bottom: 125%; }
 .square { padding-bottom: 100%; }
 .landscape { padding-bottom: 66%; }
