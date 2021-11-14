@@ -219,6 +219,13 @@ footer a:hover {
     background-position: center;
 }
 
+.opacity:hover {
+    background-color: #EEEAE8;
+    opacity: 85%;
+    transition: .8s ease-in-out;
+    /* display: block; */
+}
+
 .sm-text { font-size: 1.3rem; } 
 .med-text { font-size: 1.5rem; }
 .md-lg-text { font-size: 1.8rem; }
@@ -230,6 +237,8 @@ footer a:hover {
 .gold-text { color: #958A72; }
 .white-text { color: white; }
 .rust-text { color: #9F6C62; }
+
+.line-height { line-height: 0.9; }
 
 /* Special Classes */
 
@@ -293,17 +302,18 @@ footer a:hover {
 
 .button {
     text-decoration: none;
-    color: white;
-    background-color: #9eb6a8;
-    border: 2px solid #9eb6a8;
+    /* color: white; */
+    /* background-color: #9eb6a8; */
+    border: 1px solid #958A72;
     border-radius: 4px;
     font-family: Didot;
     font-size: 1.4rem;
     padding: 1% 5%;
 }
 
-.button a:hover {
-    background-color: #cad7cf;
+.button:hover {
+    background-color: #fff9f5;
+    border: 1px solid #958A72;
 }
 
 .move-left { margin-left: -5rem; }
