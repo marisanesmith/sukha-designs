@@ -207,6 +207,7 @@ footer a:hover {
 
 .uppercase { text-transform: uppercase; }
 
+.bg-eggshell { background-color: #FDFBFA; }
 .bg-light { background-color: #f8f6f4; }
 .bg-beige { background-color: #F5F1EC; }
 .bg-dark-beige { background-color: #f4eee6; }
@@ -447,6 +448,21 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-portrait-adult {
+    background-image: url('./images/henry-portrait.jpg');
+    background-position: center;
+}
+
+.bg-portrait-adult-2 {
+    background-image: url('./images/portrait-dalton.jpg');
+    background-position: center;
+}
+
+.bg-lifestyle-2 {
+    background-image: url('./images/lifestyle-2.jpg');
+    background-position: center;
+}
+
 .bg-mb {
     background-image: url('./images/mb.JPG');
     background-position: center;
@@ -653,6 +669,9 @@ footer a:hover {
     footer h2{
         margin-top: 1.5rem;
     }
+    .large-text {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 36em) {
@@ -662,4 +681,6 @@ footer a:hover {
     footer nav {
         padding-top: 1rem;
     }
+
+  
 }
