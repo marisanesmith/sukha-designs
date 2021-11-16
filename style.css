@@ -458,6 +458,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-portrait-3 {
+    background-image: url('./images/portrait-3.jpg');
+    background-position: center;
+}
+
 .bg-lifestyle-2 {
     background-image: url('./images/lifestyle-2.jpg');
     background-position: center;
@@ -465,6 +470,11 @@ footer a:hover {
 
 .bg-lifestyle-3 {
     background-image: url('./images/lifestyle-3.jpg');
+    background-position: center;
+}
+
+.bg-lifestyle-4 {
+    background-image: url('./images/lifestyle-4.jpg');
     background-position: center;
 }
 
