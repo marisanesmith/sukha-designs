@@ -463,6 +463,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-lifestyle-3 {
+    background-image: url('./images/lifestyle-3.jpg');
+    background-position: center;
+}
+
 .bg-mb {
     background-image: url('./images/mb.JPG');
     background-position: center;
