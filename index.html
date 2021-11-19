@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!------- Animate on Scroll CSS -------> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
     <!-------- External CSS stylesheet ------->
     <link rel="stylesheet" type="text/css" href="./style.css">
     
@@ -44,28 +46,28 @@
         </div>
     </section>
     
-        <div id="typed-strings" class="grid">
+        <!-- <div id="typed-strings" class="grid">
                 <h3 class="col-12-middle center mb-sm">suhka</h3>
                 <p>It <em>types</em> out sentences.</p>
               </div>
-              <span id="typed"></span>
+              <span id="typed"></span> -->
           
    
-    <div id="typed-strings">
+    <!-- <div id="typed-strings">
         <h3 class="mb-sm">suhka</h3>
         <p>It <em>types</em> out sentences.</p>
       </div>
-      <span id="typed"></span>
+      <span id="typed"></span> -->
 
     <!------------- SUHKA DESCRIPTION SECTION ---------------->
     <section class="grid bg-beige tall-30">
         <div class="col-12-middle center padded">
             <h3 id="typed-strings" class="mb-sm">suhka</h3>
-            <p class="med-text margin-bottom"> सुख, sanskrit meaning joy of life, happiness</p>
+            <p class="med-text margin-bottom" data-aos="zoom-in"> सुख, sanskrit meaning joy of life, happiness</p>
             <hr>
             <p id="introScroll" class="sm-text margin-top padding-r padding-l mb-sm">Suhka designs is committed to creating beautiful and fast websites made for your business. Our custom coded websites are a reflection of your brand and showcase exactly what you want your clients to see.</p>
         </div>
-        <span id="typed"></span>
+        <!-- <span id="typed"></span> -->
     </section>
 
       <!------------- SUHKA DESCRIPTION SECTION ALTERNATIVE DESIGN ---------------->
@@ -94,7 +96,7 @@
                 <div class="hover-container bg-image bg-mars box-shadow">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">travel</h3>
+                            <h3 class="center white-text" data-aos="fade-right">travel</h3>
                         </div>
                     </div>
                 </div> 
@@ -105,7 +107,7 @@
                 <div class="hover-container bg-image bg-portrait box-shadow">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">portrait</h3>
+                            <h3 class="center white-text" data-aos="fade-right">portrait</h3>
                         </div>
                     </div>
                 </div> 
@@ -116,7 +118,7 @@
                 <div class="hover-container bg-image bg-lifestyle-3 box-shadow">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">lifestyle</h3>
+                            <h3 class="center white-text" data-aos="fade-right">lifestyle</h3>
                         </div>
                     </div>
                 </div> 
@@ -154,25 +156,25 @@
     <div class="col-12-middle center">
         <h3>services</h3>
     </div>
-    <div class="col-3_md-6_xs-12 center padded-sm">
+    <div class="col-3_md-6_xs-12 center padded-sm" data-aos="zoom-in">
         <a href="./development.html">
             <h4>web development</h4>
         </a>
         <p>Sukha Designs uses all the latest technology to custom code your unique website. You'll be able to easily manage your site using a CMS. </p>
     </div>
-    <div class="col-3_md-6_xs-12 center padded-sm">
+    <div class="col-3_md-6_xs-12 center padded-sm" data-aos="zoom-in">
         <a href="./design.html">
             <h4>web design</h4>
         </a>
         <p>Your web presence will be a reflection of your brand with custom designs and layouts to stand out to your ideal customers. </p>
     </div>
-    <div class="col-3_md-6_xs-12 center padded-sm">
+    <div class="col-3_md-6_xs-12 center padded-sm" data-aos="zoom-in">
         <a href="./photography.html">
             <h4 class="services">photography</h4>
         </a>
         <p>Photography is an important visual aspect of every brand & business. Let me help you create high quality images that make your product stand out.</p>
     </div>
-    <div class="col-3_md-6_xs-12 center padded-sm">
+    <div class="col-3_md-6_xs-12 center padded-sm" data-aos="zoom-in">
         <a href="./creation.html">
             <h4>content creation</h4>
         </a>
@@ -236,6 +238,8 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- External JS  -->
     <script src="index.js"></script>
+    <!---- Animate on Scroll JS ------>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script type="text/javascript">
 
@@ -244,7 +248,7 @@
         })
 
     </script>
-    <script>
+    <!-- <script>
         var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
     typeSpeed: 60,
@@ -252,6 +256,17 @@
     loop: true,
     loopCount: Infinity
   });
+    </script> -->
+
+    <!------ Animate on Scroll details ------>
+    <script>
+         AOS.init({
+            offset: 200, // offset (in px) from the original trigger point
+            delay: 10, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+        });
     </script>
 </body>
 

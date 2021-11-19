@@ -20,6 +20,8 @@
     <!--------- Javascript Bootstrap -------->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!------- Animate on Scroll CSS -------> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
 </head>
 
 <body>
@@ -121,7 +123,7 @@
         <div class="col-1 move-left">
             <h5 class="number dark-grey-text">01</h5>
         </div>
-        <div class="col-7_md-12 padded-sm">
+        <div class="col-7_md-12 padded-sm" data-aos="fade-up" data-aos-duration="3000">
             <h3>web design</h3>
             <p class="margin-top sm-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dicta nostrum ad, aliquid illo atque veritatis laudantium mollitia culpa nisi reprehenderit at. In blanditiis illum molestias nisi adipisci dolorum expedita!</p>
         </div>
@@ -136,7 +138,7 @@
         <div class="col-1 move-left">
             <h5 class="number dark-grey-text">02</h5>
         </div>
-        <div class="col-7_md-12 padded-sm">
+        <div class="col-7_md-12 padded-sm" data-aos="fade-up" data-aos-duration="3000">
             <h3>web development</h3>
             <p class="margin-top sm-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dicta nostrum ad, aliquid illo atque veritatis laudantium mollitia culpa nisi reprehenderit at. In blanditiis illum molestias nisi adipisci dolorum expedita!</p>
         </div>
@@ -147,35 +149,35 @@
             <div class="col-12-middle center">
                 <h3 class="dark-grey-text">a website designed for <em> your </em>specific needs</h3>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Responsive Web Design</h5>
                 <p>Every website will be user friendly & responsive, built with multiple devices in mind. Experience easy flow between desktop, mobile and tablet viewing. </p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Custom-Coded</h5>
                 <p>Every part of your website will be uniquely yours with custom-coded designs. Experience faster website loading with custom code.</p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Secure & Unhackable</h5>
                 <p>Using the latest technologies and coding languages, we ensure that your website will not be hacked.</p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Easy to maintain</h5>
                 <p>Every website will be managed using a CMS making it easy for you to go in and make simple changes to your website. </p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">SEO Optimized</h5>
                 <p>At the forefront of every website build is SEO. Search Engine Optimization is vital for your busines. </p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Shopify & E-commerce</h5>
                 <p>With shopify capabilities it will be easy to incorporate an online shop to your custom-coded website. </p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Interactive</h5>
                 <p>Using libraries like jQuery, your website with be interactive & professional.</p>
             </div>
-            <div class="col-3_md-6_xs-12 padded-md">
+            <div class="col-3_md-6_xs-12 padded-md" data-aos="zoom-in">
                 <h5 class="margin-bottom">Unique Designs</h5>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
             </div>
@@ -225,7 +227,21 @@
     <section>
         <h4 class="copyright center bg-paper">website by sukha designs | copyright 2021 </h4>
     </section>
-    <script src="index.js"></script>
+      <!---- Animate on Scroll JS ------>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!----- External JS ------->
+      <script src="index.js"></script>
+  
+      <!------ Animate on Scroll details ------>
+      <script>
+          AOS.init({
+             offset: 200, // offset (in px) from the original trigger point
+             delay: 10, // values from 0 to 3000, with step 50ms
+             duration: 1000, // values from 0 to 3000, with step 50ms
+             easing: 'ease', // default easing for AOS animations
+             once: false, // whether animation should happen only once - while scrolling down
+         });
+     </script>
 </body>
 
 </html>
