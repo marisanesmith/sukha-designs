@@ -20,6 +20,10 @@
     <!--------- Javascript Bootstrap -------->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--- Main Slick Slider CSS that handles all the functionality --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--- Slick theme that handles the way everything slides. Optional but very helpful --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!------- Animate on Scroll CSS -------> 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -72,8 +76,25 @@
 
     <!------------ INTRO SECTION WITH BLOCKS AND PHOTO ----------->
     <section class="grid bg-beige">
-        <div class="col-6_md-12-middle bg-grey padded">
-            <div class="bg-image bg-mandrn portrait rounded-top white-border box-shadow"></div>
+        <div class="col-6_md-12-middle bg-grey padded slider-container">
+            <div class="slider-item">
+                <div class="bg-image bg-mandrn portrait white-border"></div>
+            </div>
+            <div class="slider-item">
+                <div class="bg-image bg-lofoten portrait white-border"></div>
+            </div>
+            <div class="slider-item">
+                <div class="bg-image bg-portrait portrait white-border"></div>
+            </div>
+            <div class="slider-item">
+                <div class="bg-image bg-firenze portrait white-border"></div>
+            </div>
+            <div class="slider-item">
+                <div class="bg-image bg-nyc portrait white-border"></div>
+            </div>
+            <div class="slider-item">
+                <div class="bg-image bg-cinque-terre portrait white-border"></div>
+            </div>
         </div>
         <div class="col-6_md-12-middle">
             <h3 class="margin-top padding-t center">Photography</h3>
@@ -97,7 +118,7 @@
                 <div class="hover-container bg-image bg-mars tall-70 beige-border">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">travel</h3>
+                            <h3 class="center white-text" data-aos="fade-in">travel</h3>
                         </div>
                     </div>
                 </div> 
@@ -108,7 +129,7 @@
                 <div class="hover-container bg-image bg-portrait tall-70 beige-border">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">portrait</h3>
+                            <h3 class="center white-text" data-aos="fade-in">portrait</h3>
                         </div>
                     </div>
                 </div> 
@@ -119,7 +140,7 @@
                 <div class="hover-container bg-image bg-lifestyle-3 tall-70 beige-border">
                     <div class="hover-overlay">
                         <div class="hover-inner">
-                            <h3 class="center white-text">lifestyle</h3>
+                            <h3 class="center white-text" data-aos="fade-in">lifestyle</h3>
                         </div>
                     </div>
                 </div> 
@@ -128,13 +149,6 @@
         <!-- <div class="col-4_sm-4_xs-12 bg-image bg-plant tall-70 beige-border"></div>
         <div class="col-4_sm-4_xs-12 bg-image bg-ocean tall-70 beige-border"></div> -->
     </section>
-
-   <!---------------- EXPLORE PHOTOGRAPHY SECTION -------------->
-   <!-- <section class="grid bg-dark-beige padded tall-70">
-        <div class="col-4_sm-4_xs-12 bg-image bg-desert tall-70 beige-border"></div>
-        <div class="col-4_sm-4_xs-12 bg-image bg-plant tall-70 beige-border"></div>
-        <div class="col-4_sm-4_xs-12 bg-image bg-ocean tall-70 beige-border"></div>
-    </section> -->
 
     <!----------- DEVELOPMENT WEBSITE DETAILS ------------>
     <section class="grid bg-paper tall-50 padded">
@@ -219,6 +233,14 @@
         <h4 class="copyright center bg-paper">website by sukha designs | copyright 2021 </h4>
     </section>
 
+    <!--------- Javascript Bootstrap -------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-------- Add in link for jQuery Library --------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-------- Slick Slider JS -------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!---- Animate on Scroll JS ------>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!----- External JS ------->
@@ -234,6 +256,22 @@
            once: false, // whether animation should happen only once - while scrolling down
        });
    </script>
+
+   <!-------- Slick Slider JS -------->
+   <script>
+    $('.slider-container').slick({
+        autoplay: true, // Do we want it to autoplay? true or false
+        autoplaySpeed: 1200, // How long between each slide when auto-playing
+        speed: 1700, // How fast is the transition in milliseconds
+        arrows: false, // Do you want to show arrows to trigger each slide
+        accessibility: true, // Enables keyboard tabbing and arrow key navigation
+        dots: false, // Enables the dots below to show how many slides
+        fade: true, // Changes the animate from slide to fade if true
+        infinite: true, // When true, means that it will scroll in a circle
+        pauseOnHover: true, // When true means the autoplay pauses when hovering
+        pauseOnDotsHover: false, // Pauses the autoplay when hovering over the dots
+        });
+    </script>
 </body>
 
 </html>

@@ -241,7 +241,7 @@ footer a:hover {
 .white-text { color: white; }
 .rust-text { color: #9F6C62; }
 
-.line-height { line-height: 0.9; }
+.line-height { line-height: 1; }
 
 /* Special Classes */
 
@@ -521,7 +521,7 @@ footer a:hover {
 
 .bg-santorini {
     background-image: url('./images/santorini.JPG');
-    background-position: bottom;
+    background-position: center;
 }
 
 .bg-taj {
