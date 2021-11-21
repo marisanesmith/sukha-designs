@@ -613,18 +613,23 @@ footer a:hover {
     background-position: center;
 }
 
-.bg-computer-2 {
-    background-image: url('https://source.unsplash.com/1SAnrIxw5OY');
+.bg-web-dev {
+    background-image: url('./images/web-development.jpg');
     background-position: center;
 }
 
-.bg-tablet {
-    background-image: url('https://source.unsplash.com/pVt9j3iWtPM');
+.bg-web-design {
+    background-image: url('./images/web-design.jpg');
     background-position: center;
 }
 
 .bg-photographer {
     background-image: url('https://source.unsplash.com/zrk7WirlxgM');
+    background-position: center;
+}
+
+.bg-computer-design {
+    background-image: url('./images/computer-design.jpg');
     background-position: center;
 }
 
