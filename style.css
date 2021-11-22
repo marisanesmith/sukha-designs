@@ -629,7 +629,7 @@ footer a:hover {
 }
 
 .bg-computer-design {
-    background-image: url('./images/computer-design.jpg');
+    background-image: url('./images/computer-design-4.jpg');
     background-position: center;
 }
 
@@ -655,6 +655,91 @@ footer a:hover {
 .gallery [class*="col-"] {
   padding: 0.5%;
 }
+
+/* Contact Form Styles */
+  
+  form input, 
+  form textarea {
+    width: 50%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    /* border: 2px solid rgb(220,220,220); */
+    font-family: 'Crimson';
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #f4eee6;
+    border-bottom: 2px solid #9F6C62;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #3D4341;
+  }
+  
+  textarea {
+    min-height: 0.5rem;
+  }
+  
+  form label {
+    margin-top: 1rem;
+    display: block;
+    color: #9F6C62;
+    font-weight: bold;
+  }
+  
+  form button {
+    background-color: #9F6C62;
+    opacity: 80%;
+    font-family: 'Crimson';
+    color: white;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0;
+    /* font-weight: 400; */
+    font-size: 0.7rem;
+  }
+  
+  form button:hover {
+    background-color: white;
+    color: #3D4341;
+    border: 2px solid #9F6C62;
+  }
+  
+  /* .form-style-two input,
+  .form-style-two textarea {
+    border: 2px solid #f8edeb;
+    background-color: #f8edeb;
+  }
+  .form-style-two input:focus,
+  .form-style-two textarea:focus {
+    border-color: #fd7970;
+  } */
+  
+  /* .form-style-two label {
+    color: #fd7970;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  } */
+  
+  /* .form-style-two button {
+    border: 2px solid #fd7970;
+    background-color: white;
+    color: #fd7970;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  } */
+  
+  /* .form-style-two button:hover {
+    background-color: #fd7970;
+    color: white;
+    border: #f8edeb;
+    cursor: pointer;
+  } */
 
 /* Hamburger Menu Icons */
 
