@@ -36,9 +36,12 @@ body, html {
 }
 
 hr {
-    width: 65%;
+    width: 10rem;
+    /* height: 12px; */
     margin: auto;
-    color: #9EB6A8;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
 }
 
 /* Typography Styles */
