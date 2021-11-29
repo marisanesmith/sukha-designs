@@ -596,8 +596,28 @@ footer a:hover {
     background-position: 20% 70%;
 }
 
+.bg-maasin {
+    background-image: url('./images/maasin-river.jpg');
+    background-position: center;
+}
+
+.bg-rice-terrace {
+    background-image: url('./images/rice-terrace.jpg');
+    background-position: center;
+}
+
+.bg-vietnam {
+    background-image: url('./images/vietnam-woman.jpg');
+    background-position: center;
+}
+
+.bg-dog {
+    background-image: url('./images/dog.jpg');
+    background-position: center;
+}
+
 .bg-ocean {
-    background-image: url('https://source.unsplash.com/okVXy9tG3KY');
+    background-image: url('./images/ocean.jpg');
     background-position: center;
 }
 
