@@ -853,6 +853,14 @@ footer a:hover {
     .large-text {
         font-size: 1rem;
     }
+
+    hr {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
     /* .vertical-form-text {
         transform: translateX(0%) translateY(0%) rotate(
     360deg);
