@@ -431,11 +431,6 @@ footer a:hover {
     background-position: center;
 }
 
-.bg-nh {
-    background-image: url('./images/new-hampsire.JPG');
-    background-position: center;
-}
-
 .bg-acadia {
     background-image: url('./images/acadia.JPG');
     background-position: center;
@@ -453,6 +448,11 @@ footer a:hover {
 
 .bg-nyc {
     background-image: url('./images/nyc.JPG');
+    background-position: center;
+}
+
+.bg-komodo {
+    background-image: url('./images/komodo-islands.jpg');
     background-position: center;
 }
 
@@ -591,6 +591,16 @@ footer a:hover {
     background-position: 20% 70%;
 }
 
+.bg-uluwatu-bali {
+    background-image: url('./images/uluwatu-bali.jpg');
+    background-position: center;
+}
+
+.bg-bromo {
+    background-image: url('./images/mount-bromo.jpg');
+    background-position: center;
+}
+
 .bg-siargao {
     background-image: url('./images/siargao-mangroves.jpg');
     background-position: 20% 70%;
@@ -606,8 +616,38 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-bali-terrace {
+    background-image: url('./images/bali-rice-terraces.jpg');
+    background-position: center;
+}
+
+.bg-twin-lagoon {
+    background-image: url('./images/twin-lagoon-philippines.jpg');
+    background-position: center;
+}
+
 .bg-vietnam {
     background-image: url('./images/vietnam-woman.jpg');
+    background-position: center;
+}
+
+.bg-malang {
+    background-image: url('./images/malang-indonesia.jpg');
+    background-position: center;
+}
+
+.bg-bali-rice-terraces {
+    background-image: url('./images/rice-terrace-bali.jpg');
+    background-position: center;
+}
+
+.bg-new-hampshire {
+    background-image: url('./images/new-hampshire-fall.jpg');
+    background-position: center;
+}
+
+.bg-el-nido {
+    background-image: url('./images/el-nido-philippines.jpg');
     background-position: center;
 }
 
@@ -631,11 +671,6 @@ footer a:hover {
     background-position: center;
 }
 
-.bg-computer {
-    background-image: url('https://source.unsplash.com/zNRITe8NPqY');
-    background-position: center;
-}
-
 .bg-web-dev {
     background-image: url('./images/web-development.jpg');
     background-position: center;
@@ -643,11 +678,6 @@ footer a:hover {
 
 .bg-web-design {
     background-image: url('./images/web-design.jpg');
-    background-position: center;
-}
-
-.bg-photographer {
-    background-image: url('https://source.unsplash.com/zrk7WirlxgM');
     background-position: center;
 }
 
