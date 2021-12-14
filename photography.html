@@ -1,5 +1,18 @@
 ---
 layout: default
+services:
+ - title: Content Strategy
+   description: Let us put your ideas to work. Strong online brand presence.
+ - title: High Quality Images
+   description: All photos are shot in RAW image format taken with a professional mirrorless Sony Camera providing our clients with high quality images.
+ - title: Custom Editing
+   description: Using a professional editing software, we can enhance digital images to apply simple effects that support your ideas and aesthetic.
+ - title: Brand Development & Photoshoots
+   description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.
+ - title: Photography Packages
+   description: We offer a wide range of photography packages including resort photography, hospitality & tourism boards. We also create stylized product photography for brands, lifestyle, family & single photoshoots.
+ - title: Digital Strategy
+   description: Prioritize which social media platforms are best for your brand and increase exposure through organic traffic utilizing SEO & Pinterest.
 ---
     <!---------- HEADER & NAV BAR (BOOTSTRAP) ------------>
     <nav>
@@ -82,51 +95,18 @@ layout: default
         <div class="col-4_sm-4_xs-12 bg-image bg-ocean tall-70 beige-border"></div> -->
     </section>
 
-    <!----------- DEVELOPMENT WEBSITE DETAILS ------------>
-    <section class="grid bg-paper tall-50 padded">
+    <!----------- PHOTOGRAPHY SERVICE DETAILS ------------>
+    <section class="grid-center bg-paper tall-50 padded">
         <div class="col-12-middle center">
             <h3 class="dark-grey-text xl-text">photography that helps you tell <em> your </em> story.</h3>
         </div>
+
+        {% for item in page.services %}
         <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">Content Strategy</h5>
-            <p>Let us put your ideas to work. Strong online brand presence.</p>
+            <h5 class="margin-bottom">{{item.title}}</h5>
+            <p>{{item.description}}</p>
         </div>
-        <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">High Quality Images</h5>
-            <p>All photos are shot in RAW image format taken with a professional mirrorless Sony Camera providing our clients with high quality images.</p>
-        </div>
-        <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">Custom Editing</h5>
-            <p>Using a professional editing software, we can enhance digital images to apply simple effects that support your ideas and aesthetic. </p>
-        </div>
-        <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">Brand Development & Photoshoots</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
-        </div>
-        <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">Photography Packages</h5>
-            <p>We offer a wide range of photography packages including resort photography, hospitality & tourism boards. We also create stylized product photography for brands, lifestyle, family & single photoshoots.</p>
-        </div>
-        <div class="col-4_md-4_xs-12 padded-md" data-aos="zoom-in">
-            <h5 class="margin-bottom">Digital Strategy</h5>
-            <p>Prioritize which social media platforms are best for your brand and increase exposure through organic traffic utilizing SEO & Pinterest.</p>
-        </div>
-        <!-- <div class="col-3_md-6_xs-12 padded-md">
-            <h5 class="margin-bottom">Travel Photography</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
-        </div> -->
-        <!-- <div class="col-3_md-6_xs-12 padded-md">
-            <h5 class="margin-bottom">Shopify & E-commerce</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
-        </div> -->
-        <!-- <div class="col-3_md-6_xs-12 padded-md">
-            <h5 class="margin-bottom">Interactive</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
-        </div> -->
-        <!-- <div class="col-3_md-6_xs-12 padded-md">
-            <h5 class="margin-bottom">Unique Designs</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maxime eligendi id dolor itaque cumque voluptatum, atque numquam sapiente expedita deserunt? Distinctio, sunt rem neque optio at error excepturi cupiditate.</p>
-        </div> -->
+        {% endfor %}
     </section>
 
     <!--------- ADDITIONAL NAV BAR SECTION ------------>
@@ -154,7 +134,6 @@ layout: default
         <div class="col-12-middle center">
             <h3 class="margin-bottom xl-text dark-grey-text">let's bring your <em> visual ideas </em>to life.</h3>
             <p class="padding-r padding-l margin-bottom sm-text">Get in touch so we can elevate your brand and business through photography.</p>
-            <!------ Get the hover to work------->
             <a class="button box-shadow" href="mailto:marisa@thisworldtraveled.com">contact me</a>
         </div>
     </section>

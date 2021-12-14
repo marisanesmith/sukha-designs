@@ -234,6 +234,11 @@ footer a:hover {
 180deg,#fff 50%,#f4eee6 50%);
 }
 
+.split-white {
+    background: linear-gradient(
+180deg,#f4eee6 50%, #fff 50%);
+}
+
 .opacity:hover {
     background-color: #EEEAE8;
     opacity: 85%;
