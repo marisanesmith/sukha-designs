@@ -876,13 +876,22 @@ footer a:hover {
     transform: rotate(-135deg);
 } */
 
+/* General CSS Responsive Styles */
+
+.show,
+.show-xs,
+.show-sm,
+.show-md,
+.mobile-menu {
+    display: none;
+}
 /* Media Queries */
 
 @media (max-width: 64em) {
     footer {
         padding: 5%;
     }
-    footer h2{
+    footer h2 {
         margin-top: 1.5rem;
     }
     .large-text {
@@ -892,9 +901,12 @@ footer a:hover {
     hr {
         display: none;
     }
+    .show { display: block; }
 
-    .hide {
-        display: none;
+    .hide,
+    .hide_sm,
+    .hide-md { 
+        display: none; 
     }
     /* .vertical-form-text {
         transform: translateX(0%) translateY(0%) rotate(
