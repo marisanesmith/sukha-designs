@@ -47,7 +47,7 @@ hr {
 /* Typography Styles */
 
 h1, h2, h3 {
-    font-family: 'Crimson';
+    font-family: 'Crimson', serif;
     line-height: 1;
     letter-spacing: 0.02em;
 }
@@ -73,7 +73,7 @@ h4 {
 
 h5 {
     font-size: 1.4rem;
-    font-family: 'Crimson';
+    font-family: 'Crimson', serif;
     color: #9F6C62;
 }
 
