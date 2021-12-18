@@ -757,6 +757,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-kiehls {
+    background-image: url('./images/kiehls.jpg');
+    background-position: center;
+}
+
 
 
 
