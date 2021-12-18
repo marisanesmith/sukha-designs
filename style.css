@@ -722,6 +722,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-central-park {
+    background-image: url('./images/central-park.jpg');
+    background-position: center;
+}
+
 
 /* Image Gallery */
 
