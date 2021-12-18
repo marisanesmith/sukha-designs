@@ -702,6 +702,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-morocco {
+    background-image: url('./images/SaharaDesertMan.jpg');
+    background-position: center;
+}
+
 
 /* Image Gallery */
 
