@@ -742,6 +742,16 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-entalula {
+    background-image: url('./images/entalula-island.jpg');
+    background-position: center;
+}
+
+.bg-palawan {
+    background-image: url('./images/palawan-philippines.jpg');
+    background-position: center;
+}
+
 
 
 /* Image Gallery */
