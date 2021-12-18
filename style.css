@@ -752,6 +752,12 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-mandalay {
+    background-image: url('./images/mandalay-myanmar.jpg');
+    background-position: center;
+}
+
+
 
 
 /* Image Gallery */
