@@ -697,6 +697,11 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-child {
+    background-image: url('./images/infant.jpg');
+    background-position: center;
+}
+
 
 /* Image Gallery */
 
