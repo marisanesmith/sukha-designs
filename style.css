@@ -707,6 +707,21 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-surfboard {
+    background-image: url('./images/florida-beach.jpg');
+    background-position: center;
+}
+
+.bg-girl-portrait {
+    background-image: url('./images/girl-portrait.jpg');
+    background-position: center;
+}
+
+.bg-family {
+    background-image: url('./images/mom-daughter-beach.jpg');
+    background-position: center;
+}
+
 
 /* Image Gallery */
 
