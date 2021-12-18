@@ -727,6 +727,16 @@ footer a:hover {
     background-position: center;
 }
 
+.bg-sunset {
+    background-image: url('./images/sunset.jpg');
+    background-position: center;
+}
+
+.bg-beach-girl {
+    background-image: url('./images/girl-beach.jpg');
+    background-position: center;
+}
+
 
 /* Image Gallery */
 
