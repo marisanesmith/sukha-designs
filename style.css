@@ -44,6 +44,41 @@ hr {
     border-bottom: 2px solid black;
 }
 
+/* .relative { position: relative; }
+.flex { display: flex; }
+.flex-auto { flex: 1 1 auto; }
+.justify-between { justify-content: space-between; }
+.items-center { align-items: center; } */
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mobile-menu a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.hamburger-button {
+    position: relative;
+    z-index: 2;
+}
+
+.hamburger-button i {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 /* Typography Styles */
 
 h1, h2, h3 {
@@ -94,6 +129,11 @@ p {
     font-size: 1.1rem;
 }
 
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
 p:last-child {
     margin-bottom: 0;
 }
@@ -960,8 +1000,7 @@ footer a:hover {
 .show,
 .show-xs,
 .show-sm,
-.show-md,
-.mobile-menu {
+.show-md {
     display: none;
 }
 /* Media Queries */
