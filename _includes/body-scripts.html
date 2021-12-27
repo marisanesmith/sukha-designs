@@ -46,5 +46,14 @@ $('.slider-container').slick({
     });
 </script>
 
+<script>
+    $(document).ready(function() {
+    $('.hamburger-button').click(function() {
+      $(this).toggleClass('active');
+      $('.mobile-menu').fadeToggle();
+    });
+})
+</script>
+
 <!-- External JS  -->
 <script src="script.js"></script>
