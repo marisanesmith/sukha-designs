@@ -33,6 +33,11 @@ Light Grey: #EEEAE8
 
 body, html {
     border: none;
+    overflow-x: hidden;
+}
+
+html {
+    display: block;
 }
 
 hr {
