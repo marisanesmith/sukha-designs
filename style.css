@@ -466,6 +466,11 @@ footer a:hover {
 
 /* Image Styles */
 
+img.resize {
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .bg-image {
     background-size: cover;
     min-height: 10rem;
