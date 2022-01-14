@@ -225,6 +225,8 @@ footer a:hover {
 .padded-md { padding: 3%; }
 .padded-lg { padding: 10%; }
 
+.padding-0 { padding: 0; }
+
 .padding-r { padding-right: 10%; }
 .padding-l { padding-left: 10%; }
 .padding-t { padding-top: 5%; }
