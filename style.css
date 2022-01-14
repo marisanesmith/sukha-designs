@@ -477,7 +477,8 @@ footer a:hover {
 
 .bg-mainlogo { 
     background-image: url('./images/Sukha-MainLogo-Transparent.png');
-    max-width: 100%;
+    max-width: 50%;
+    background-position: center;
 }
 
 .bg-arch {
