@@ -475,6 +475,11 @@ footer a:hover {
 .portrait { padding-bottom: 125%; }
 .square { padding-bottom: 100%; }
 
+.bg-mainlogo { 
+    background-image: url('./images/Sukha-MainLogo-Transparent.png');
+    max-width: 100%;
+}
+
 .bg-arch {
     background-image: url('./images/delicate-arch.jpg');
     background-position: 50% 35%;
