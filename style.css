@@ -96,7 +96,7 @@ hr {
 
 /* Typography Styles */
 
-h1, h2, h4, h5 {
+h1, h2, h4 {
     font-family: 'gallient', serif;
     line-height: 1;
     letter-spacing: 0.02em;
@@ -111,6 +111,7 @@ h3 {
     font-size: 3.5rem;
     color: #9F6C62;
     letter-spacing: 0.03em;
+    font-family: 'gallient';
 }
 
 h4 {
@@ -125,6 +126,8 @@ h4 {
 h5 {
     font-size: 1.4rem;
     color: #9F6C62;
+    letter-spacing: 0.03em;
+
 }
 
 .cursive-text { 
