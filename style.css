@@ -35,6 +35,12 @@ Light Grey: #EEEAE8
     font-family: 'gallient';
     src: url('./font/GallientRegular-eZoMp.ttf');
 }
+
+@font-face {
+    font-family: 'goldenHopes';
+    src: url('./font/GoldenHopes-rgAlA.otf');
+}
+
 body, html {
     border: none;
     overflow-x: hidden;
@@ -112,7 +118,7 @@ h4 {
     /* color: rgb(60,60,65); */
     color: #958A72;
     margin-bottom: 1.2rem;
-    font-family: 'Lato';
+    font-family: 'Crimson';
 }
 
 h5 {
@@ -120,6 +126,8 @@ h5 {
     font-family: 'Crimson', serif;
     color: #9F6C62;
 }
+
+.cursive-text { font-family: 'goldenHopes'; }
 
 h4:hover{
     color: #9F6C62;
