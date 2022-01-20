@@ -123,13 +123,13 @@ h4 {
 
 h5 {
     font-size: 1.4rem;
-    font-family: 'Crimson', serif;
+    font-family: 'gallient', serif;
     color: #9F6C62;
 }
 
 .cursive-text { 
     font-family: 'goldenHopes'; 
-    font-size: 3.8rem;
+    font-size: 3.9rem;
 }
 
 h4:hover{
@@ -145,7 +145,7 @@ p {
     line-height: 1.4;
     margin-bottom: 1rem;
     color: rgb(90,90,95);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Crimson', serif;
     font-size: 1.1rem;
 }
 
