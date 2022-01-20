@@ -130,7 +130,9 @@ h5 {
     font-family: 'gallient', serif;
 }
 
-.cursive-text { 
+.normal-text  { font-family: 'Crimson'; }
+
+.featured-text { 
     font-family: 'goldenHopes'; 
     font-size: 4rem;
     margin-bottom: 3%;
