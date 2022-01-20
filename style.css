@@ -1,6 +1,6 @@
 /* 
 Fonts: 
-Crimson Text (400, 600)
+Crimson Text (400, 600) 'Crimson'
 Montserrat (100, 200, 300, 400)
 Nunito Sans (200, 300),
 Roboto (100, 300, 400)
@@ -31,6 +31,10 @@ Light Grey: #EEEAE8
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'gallient';
+    src: url('./font/GallientRegular-eZoMp.ttf');
+}
 body, html {
     border: none;
     overflow-x: hidden;
@@ -87,7 +91,7 @@ hr {
 /* Typography Styles */
 
 h1, h2, h3 {
-    font-family: 'Crimson', serif;
+    font-family: 'gallient', serif;
     line-height: 1;
     letter-spacing: 0.02em;
 }
