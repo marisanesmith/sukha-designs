@@ -65,35 +65,6 @@ hr {
 .justify-between { justify-content: space-between; }
 .items-center { align-items: center; } */
 
-/* Mobile Menu Styles */
-/* .mobile-menu {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.mobile-menu a {
-    display: block;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-}
-
-.hamburger-button {
-    position: relative;
-    z-index: 2;
-}
-
-.hamburger-button i {
-    font-size: 2.2rem;
-    margin-bottom: 0;
-}
-
-.mobile-menu {
-    display: none;
-} */
-
 /* Typography Styles */
 
 h1, h2, h4 {
@@ -175,7 +146,7 @@ header a {
 
 nav a {
     font-size: 1.2rem;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     text-decoration: none;
     font-family: 'Crimson', serif;
 }
@@ -1019,14 +990,16 @@ img.resize {
 @media(max-width: 48em) {
     .mob-hide { display: none; }
     .mob-show { display: block; }
-    h1 { font-size: 1.7rem; }
-    nav a { font-size: 1.7rem; }
+    /* h1 { font-size: 1.7rem; } */
+    /* nav a { font-size: 1.7rem; } */
+    .ham-menu { font-size: 1.7rem; }
 }
 
 @media (max-width: 36em) {
 
     .mob-hide { display: none; }
     .mob-show { display: block; }
+    .ham-menu { font-size: 1.3rem; }
 
     footer, footer .right {
         text-align: center;
