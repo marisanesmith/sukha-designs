@@ -990,8 +990,6 @@ img.resize {
 @media(max-width: 48em) {
     .mob-hide { display: none; }
     .mob-show { display: block; }
-    /* h1 { font-size: 1.7rem; } */
-    /* nav a { font-size: 1.7rem; } */
     .ham-menu { font-size: 1.8rem; }
 }
 
@@ -1000,6 +998,7 @@ img.resize {
     .mob-hide { display: none; }
     .mob-show { display: block; }
     .ham-menu { font-size: 1.5rem; }
+    .main-mobile { font-size: 1.3rem; }
 
     footer, footer .right {
         text-align: center;
