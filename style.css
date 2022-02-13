@@ -994,15 +994,6 @@ img.resize {
 .mob-show {
     display: none;
 }
-
-/* General CSS Responsive Styles */
-
-.show,
-.show-xs,
-.show-sm,
-.show-md {
-    display: none;
-}
 /* Media Queries */
 
 @media (max-width: 64em) {
@@ -1019,13 +1010,7 @@ img.resize {
     hr {
         display: none;
     }
-    .show { display: block; }
-
-    .hide,
-    .hide-sm,
-    .hide-md { 
-        display: none; 
-    }
+  
     .mob-hide { display: none; }
     .mob-show { display: block; }
 }
@@ -1041,7 +1026,7 @@ img.resize {
 
     .mob-hide { display: none; }
     .mob-show { display: block; }
-    
+
     footer, footer .right {
         text-align: center;
     }
