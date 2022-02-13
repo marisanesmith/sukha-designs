@@ -46,13 +46,20 @@ $('.slider-container').slick({
     });
 </script>
 
-<script>
+<!-- <script>
     $(document).ready(function() {
     $('.hamburger-button').click(function() {
       $(this).toggleClass('active');
       $('.mobile-menu').fadeToggle();
     });
 })
+</script> -->
+
+<script type="text/javascript">
+    $('.hamburger-button').click(function(){
+        $('.mobile-menu').slideToggle();
+        $(this).toggleClass('active');
+    })
 </script>
 
 <!-- External JS  -->
