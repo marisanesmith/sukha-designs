@@ -1024,6 +1024,9 @@ img.resize {
         margin-right: 2%;
         margin-left: 2%;
     }
+}
 
-  
+/* Custom Media Query XXS */
+@media(max-width: 25em) {
+    .main-mobile { font-size: 1.1rem; }
 }
