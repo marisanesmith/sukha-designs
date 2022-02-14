@@ -523,6 +523,16 @@ img.resize {
     background-position: center;
 }
 
+.bg-madi-3 {
+    background-image: url('./images/madi-3.jpg');
+    background-position: center;
+}
+
+.bg-madi-4 {
+    background-image: url('./images/madi-4.jpg');
+    background-position: center;
+}
+
 .bg-komodo {
     background-image: url('./images/komodo-islands.jpg');
     background-position: center;
