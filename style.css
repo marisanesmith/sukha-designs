@@ -530,6 +530,11 @@ img.resize {
 
 .bg-madi-4 {
     background-image: url('./images/madi-4.jpg');
+    background-position: top;
+}
+
+.bg-marisa {
+    background-image: url('./images/marisa-portrait-14.jpg');
     background-position: center;
 }
 
